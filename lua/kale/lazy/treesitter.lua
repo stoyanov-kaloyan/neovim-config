@@ -9,6 +9,8 @@ return {
             ts.install({
                 "vimdoc", "javascript", "typescript",
                 "c", "lua", "rust", "jsdoc", "bash", "go",
+                "html", "css", "scss", "json", "yaml", "markdown",
+                "solidity"
             }, { prefer_prebuilt = true })
 
             vim.api.nvim_create_autocmd("FileType", {
