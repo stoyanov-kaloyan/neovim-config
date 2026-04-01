@@ -7,7 +7,7 @@ return {
             local ts = require("nvim-treesitter")
 
             ts.install({
-                "vimdoc", "javascript", "typescript",
+                "prolog", "vimdoc", "javascript", "typescript",
                 "c", "lua", "rust", "jsdoc", "bash", "go",
                 "html", "css", "scss", "json", "yaml", "markdown",
                 "solidity"
