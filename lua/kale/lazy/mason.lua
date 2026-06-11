@@ -5,7 +5,7 @@ return {
         "neovim/nvim-lspconfig",
     },
     opts = {
-        ensure_installed = { "pyright", "lua_ls", "ts_ls", "rust_analyzer" },
-        automati_installation = true,
+        ensure_installed = { "pyright", "lua_ls", "ts_ls", "rust_analyzer", "fennel_ls" },
+        automatic_installation = true,
     }
 }
